@@ -44,7 +44,7 @@ const Navbar = () => {
           </ul>
         </div>
         <Link to="/" className="text-2xl font-bold">
-          Home Decor
+          Home Haven
         </Link>
       </div>
 
