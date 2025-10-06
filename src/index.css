@@ -1,6 +1,59 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+/* * {
+  color: #333333;
+  #F5F5DC,
+  #D2B48C;#8B4513
+} */
+
 a.active {
-  border: 1px solid rgb(0, 174, 255);
+  color: #c0a060;
+  font-weight: 600;
+  border-bottom: 1px solid #fff;
 }
+
+/* Primary: #4B2E83 (Deep Purple / Aubergine)
+
+Secondary: #C0A060 (Gold / Brass) Add to Cart Button: Gold (#C0A060)
+
+Accent: #FFFFFF (White) View Details Button: White (#FFFFFF) with deep purple (#4B2E83)
+
+Text: #222222 (Almost Black) deep purple (#4B2E83) with white icon/text, or outline gold (#C0A060) – subtle but visible.
+
+Hover Effects
+
+Add to Cart: hover slightly darker gold (#B89150), transition smooth.
+
+View Details: hover purple bg (#4B2E83), text white.
+
+Wishlist: hover gold (#C0A060) fill icon or border. Consistency is key. Gold = primary CTA (buy now, add to cart), Purple = secondary buttons / special features.
+
+White = clean neutral buttons, cards, backgrounds.
+
+Menu Hover / Active Idea
+1️⃣ Default State
+
+Text: #FFFFFF (white)
+
+Background: transparent
+
+Border/underline: none
+
+2️⃣ Hover State
+
+Text color: #C0A060 (gold)
+
+Optional: underline / bottom border: 2px solid #C0A060
+
+Transition: smooth 0.3s
+
+3️⃣ Active State (current page)
+
+Text color: #C0A060 (gold)
+
+Bottom border: 2px solid #C0A060 (or slightly thicker, 3px)
+
+Optional: slightly bold (font-semibold)
+
+*/

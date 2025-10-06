@@ -2,7 +2,7 @@ import { Link, NavLink } from "react-router";
 
 const Navbar = () => {
   return (
-    <nav className="navbar w-11/12 mx-auto px-0">
+    <nav className="navbar w-11/12 mx-auto px-0 text-white">
       <div className="navbar-start w-full lg:w-[1/2]">
         <div className="dropdown">
           <div
